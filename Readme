@@ -1,0 +1,5 @@
+How to use rebase: ( when you want to maintain linear clean history by fixing the conflict deltas in two same files of diffrent branch you can manually fix it but these commands below:)
+git status
+# fix files manually
+git add <file>
+git rebase --continue
